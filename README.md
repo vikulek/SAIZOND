@@ -51,7 +51,7 @@ WMIC CPU Get DeviceID,NumberOfCores,NumberOfLogicalProcessors
 DeviceID  NumberOfCores  NumberOfLogicalProcessors
 CPU0      4              8
 ```
-Было определено, что используемый процессор - четырехядерный и восьмипоточный Intel(R) Core(TM) i5-1035G1
+Было определено, что используемый процессор - четырехъядерный и восьмипоточный Intel(R) Core(TM) i5-1035G1
 
 3. Далее получим последние 30 строк логов системы:
 
