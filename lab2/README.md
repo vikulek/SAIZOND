@@ -12,7 +12,7 @@
 
 1. C помощью Wireshark был собран сетевой трафик объёмом 105 Мб и записан в файл data.pcapng.
 
-![Image alt]([https://github.com/vikulek/tmp/blob/main/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%202/posl.jpg](https://github.com/vikulek/SAIZOND/blob/main/lab2/screen/screen.png))
+![Image alt](https://github.com/vikulek/SAIZOND/blob/main/lab2/screen/screen.png)
 
 2. С помощью Zeek была выделена метаинформация сетевого трафика (файлы dns.log и http.log).
 
@@ -60,6 +60,10 @@ for i in range(len(dns_hosts)):
 enemy_dns = c/(len(enemy_hosts))
 print("Количество совпадений DNS с нежелательным трафиком:", c)
 print("Процент нежелательного трафика:", enemy_dns)
+```
+```
+Количество совпадений DNS с нежелательным трафиком: 0
+Процент нежелательного трафика: 0.0
 ```
 
 ## Оценка результата
