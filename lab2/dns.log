@@ -1,0 +1,36 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2023-04-12-08-43-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1679484793.792931	CaXoa84tmsHuvTScT6	fe80::c8cb:e0cb:c57f:580f	5353	ff02::fb	5353	udp	0	-	_pgpkey-hkp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679484793.793180	Ckrvli1vcpHP6BdkT1	10.0.2.15	5353	224.0.0.251	5353	udp	0	-	_pgpkey-hkp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679484813.131177	C4128dVUKRD4GoZ86	10.0.2.15	50080	10.117.7.2	53	udp	45564	0.031881	detectportal.firefox.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	detectportal.prod.mozaws.net,prod.detectportal.prod.cloudops.mozgcp.net,2600:1901:0:38d7::	36.000000,104.000000,10.000000	F
+1679484813.130979	Cig0M2E3k7p8h6Fjg	10.0.2.15	53158	10.117.7.2	53	udp	33961	0.032081	detectportal.firefox.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	detectportal.prod.mozaws.net,prod.detectportal.prod.cloudops.mozgcp.net,34.107.221.82	36.000000,104.000000,94.000000	F
+1679484813.218159	CGjXyk2OVk2BCrVng3	10.0.2.15	60640	10.117.7.2	53	udp	54291	0.002485	mozilla.cloudflare-dns.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	2606:4700::6810:f8f9,2606:4700::6810:f9f9	265.000000,265.000000	F
+1679484813.290957	CBAGZq3mux2bUFOaFc	10.0.2.15	52881	10.117.7.2	53	udp	32329	-	ipv4only.arpa	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1679484813.310698	CsgyQu2r5anphPiLql	10.0.2.15	48879	10.117.7.2	53	udp	13332	-	ipv4only.arpa	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1679484825.798313	CPuARz3QHw6YLAPZQ1	fe80::c8cb:e0cb:c57f:580f	5353	ff02::fb	5353	udp	0	-	_pgpkey-hkp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679484825.798414	Cp7A1h3jOQV7Hm4uze	10.0.2.15	5353	224.0.0.251	5353	udp	0	-	_pgpkey-hkp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679484841.992269	CrFKQV3SfkM8E30Vbk	10.0.2.15	41444	10.117.7.2	53	udp	37655	0.002545	connectivity-check.ubuntu.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	2620:2d:4000:1::2a,2620:2d:4000:1::23,2620:2d:4000:1::22,2001:67c:1562::23,2001:67c:1562::24,2620:2d:4000:1::2b	40.000000,40.000000,40.000000,40.000000,40.000000,40.000000	F
+1679484843.141690	C2NpTs1a0EcBOAwq6k	fe80::c8cb:e0cb:c57f:580f	5353	ff02::fb	5353	udp	0	-	_ipps._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679484843.142002	CfuMei13nJzu9BPib	10.0.2.15	5353	224.0.0.251	5353	udp	0	-	_ipps._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679484889.802438	C51dpx1f21IuMLxzdh	fe80::c8cb:e0cb:c57f:580f	5353	ff02::fb	5353	udp	0	-	_pgpkey-hkp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679484889.802699	COSpfs30SczVOe4YX7	10.0.2.15	5353	224.0.0.251	5353	udp	0	-	_pgpkey-hkp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679484970.035342	CNZnsq1AVkh4gNbQAg	10.0.2.15	44574	10.117.7.2	53	udp	51054	0.002185	connectivity-check.ubuntu.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	2620:2d:4000:1::23,2620:2d:4000:1::2a,2620:2d:4000:1::2b,2001:67c:1562::23,2620:2d:4000:1::22,2001:67c:1562::24	6.000000,6.000000,6.000000,6.000000,6.000000,6.000000	F
+1679484971.174030	CgWzGy4KoF3eFUzSe8	fe80::c8cb:e0cb:c57f:580f	5353	ff02::fb	5353	udp	0	-	_ipps._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679484971.174463	CiShxl2S0rRM0V0aX8	10.0.2.15	5353	224.0.0.251	5353	udp	0	-	_ipps._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679484994.044750	CSjbAC3tXwNQGQqrQc	10.0.2.15	34787	10.117.7.2	53	udp	44882	0.030227	mozilla.cloudflare-dns.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	104.16.249.249,104.16.248.249	300.000000,300.000000	F
+1679485015.962747	CmdXuT32io0n8s1P2	10.0.2.15	51339	10.117.7.2	53	udp	12985	0.001399	connectivity-check.ubuntu.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	91.189.91.49,185.125.190.18,91.189.91.48,185.125.190.48,34.122.121.32,185.125.190.17,35.232.111.17,185.125.190.49,35.224.170.84	4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000,4.000000	F
+1679485017.802661	CoyWrn3NnsrSXwFmO9	fe80::c8cb:e0cb:c57f:580f	5353	ff02::fb	5353	udp	0	-	_pgpkey-hkp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679485017.802784	C5qvzXuss0qQzwqU4	10.0.2.15	5353	224.0.0.251	5353	udp	0	-	_pgpkey-hkp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679485116.473614	C10wt93anaY1S0P7Na	10.0.2.15	44284	10.117.7.2	53	udp	14600	0.001923	mozilla.cloudflare-dns.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	2606:4700::6810:f8f9,2606:4700::6810:f9f9	264.000000,264.000000	F
+1679485226.033616	C2Enbl39CMJvcXEQdg	10.0.2.15	56375	10.117.7.2	53	udp	9080	0.001353	connectivity-check.ubuntu.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	T	0	2620:2d:4000:1::2b,2001:67c:1562::24,2620:2d:4000:1::23,2001:67c:1562::23,2620:2d:4000:1::2a,2620:2d:4000:1::22	13.000000,13.000000,13.000000,13.000000,13.000000,13.000000	F
+1679485227.196480	CXqEJh360iLl9D2tlb	fe80::c8cb:e0cb:c57f:580f	5353	ff02::fb	5353	udp	0	-	_ipps._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679485227.196678	Cp529h1sxPhQyvMcyf	10.0.2.15	5353	224.0.0.251	5353	udp	0	-	_ipps._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679485273.805938	CzOxYg5MvDEcGGfl6	fe80::c8cb:e0cb:c57f:580f	5353	ff02::fb	5353	udp	0	-	_pgpkey-hkp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1679485273.806096	CkTmpA2bJBib0Esvgc	10.0.2.15	5353	224.0.0.251	5353	udp	0	-	_pgpkey-hkp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+#close	2023-04-12-08-43-22
