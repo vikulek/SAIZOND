@@ -19,7 +19,7 @@
 sudo sysctl -w vm.max_map_count=262144
 ```
 
-### Шаг 2 - создание docker-compose.yml
+### Шаг 2 - Cоздание docker-compose.yml
 
 #### 2.1 Создаем сервис setup:
 
@@ -200,7 +200,9 @@ filebeat:
 ```
 
 Где:
+
 filebeat.yml -- файл конфигурации Filebeat;
+
 logs -- каталог с лог-файлами.
 
 #### 3.2 Создаем файл конфигурации filebeat.yml:
